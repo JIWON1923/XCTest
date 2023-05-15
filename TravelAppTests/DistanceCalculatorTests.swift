@@ -51,4 +51,11 @@ final class DistanceCalculatorTests: XCTestCase {
         // 4) accuracy를 이용해서 해결 - accuracy는 1만큼 오차를 허용한다는 의미
         XCTAssertEqual(distanceInMiles, 3636, accuracy: 1)
     }
+    
+    // 3. 에러를 제대로 뱉어내는지 테스트
+    func testCupertinoNotRecognized() {
+        XCTAssertThrowsError(try calculator.distanceInMiles(from: "Cupertino", to: "NewYork")) { error in
+            XCTAssertEqual(error as? DistancaCaculator.Error, .unknownCity("Cupertino"))
+        }
+    }
 }
