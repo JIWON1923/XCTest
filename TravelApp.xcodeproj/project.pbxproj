@@ -19,6 +19,7 @@
 		8772308D2A10EF24009F75B2 /* City.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8772308C2A10EF24009F75B2 /* City.swift */; };
 		877230932A10F580009F75B2 /* CarouselCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 877230922A10F580009F75B2 /* CarouselCollectionViewCell.swift */; };
 		877230962A110D26009F75B2 /* Double.swift in Sources */ = {isa = PBXBuildFile; fileRef = 877230952A110D26009F75B2 /* Double.swift */; };
+		877230992A1268C7009F75B2 /* DistanceCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 877230982A1268C7009F75B2 /* DistanceCalculator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		8772308C2A10EF24009F75B2 /* City.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = City.swift; sourceTree = "<group>"; };
 		877230922A10F580009F75B2 /* CarouselCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselCollectionViewCell.swift; sourceTree = "<group>"; };
 		877230952A110D26009F75B2 /* Double.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Double.swift; sourceTree = "<group>"; };
+		877230982A1268C7009F75B2 /* DistanceCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DistanceCalculator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +107,7 @@
 		877230552A10D4C9009F75B2 /* TravelApp */ = {
 			isa = PBXGroup;
 			children = (
+				877230972A1268B7009F75B2 /* Helper */,
 				877230942A110D10009F75B2 /* Extensions */,
 				8772308A2A10D597009F75B2 /* Models */,
 				877230892A10D591009F75B2 /* ViewControllers */,
@@ -182,6 +185,14 @@
 				877230952A110D26009F75B2 /* Double.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		877230972A1268B7009F75B2 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				877230982A1268C7009F75B2 /* DistanceCalculator.swift */,
+			);
+			path = Helper;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -316,6 +327,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				877230932A10F580009F75B2 /* CarouselCollectionViewCell.swift in Sources */,
+				877230992A1268C7009F75B2 /* DistanceCalculator.swift in Sources */,
 				8772305B2A10D4C9009F75B2 /* ViewController.swift in Sources */,
 				877230572A10D4C9009F75B2 /* AppDelegate.swift in Sources */,
 				8772308D2A10EF24009F75B2 /* City.swift in Sources */,
