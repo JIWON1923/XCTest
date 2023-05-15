@@ -20,6 +20,7 @@
 		877230932A10F580009F75B2 /* CarouselCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 877230922A10F580009F75B2 /* CarouselCollectionViewCell.swift */; };
 		877230962A110D26009F75B2 /* Double.swift in Sources */ = {isa = PBXBuildFile; fileRef = 877230952A110D26009F75B2 /* Double.swift */; };
 		877230992A1268C7009F75B2 /* DistanceCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 877230982A1268C7009F75B2 /* DistanceCalculator.swift */; };
+		8772309B2A126DE5009F75B2 /* DistanceCalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8772309A2A126DE5009F75B2 /* DistanceCalculatorTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		877230922A10F580009F75B2 /* CarouselCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselCollectionViewCell.swift; sourceTree = "<group>"; };
 		877230952A110D26009F75B2 /* Double.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Double.swift; sourceTree = "<group>"; };
 		877230982A1268C7009F75B2 /* DistanceCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DistanceCalculator.swift; sourceTree = "<group>"; };
+		8772309A2A126DE5009F75B2 /* DistanceCalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DistanceCalculatorTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +124,7 @@
 			isa = PBXGroup;
 			children = (
 				8772306D2A10D4CA009F75B2 /* TravelAppTests.swift */,
+				8772309A2A126DE5009F75B2 /* DistanceCalculatorTests.swift */,
 			);
 			path = TravelAppTests;
 			sourceTree = "<group>";
@@ -340,6 +343,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8772309B2A126DE5009F75B2 /* DistanceCalculatorTests.swift in Sources */,
 				8772306E2A10D4CA009F75B2 /* TravelAppTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
